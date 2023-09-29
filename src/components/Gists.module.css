@@ -1,0 +1,21 @@
+.liClass {
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px solid #efeeee;
+}
+
+li img{
+    width: 90px;
+    height: 90px;
+    margin-right: 50px;
+}
+
+.fade-in {
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .fade-out {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
